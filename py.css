@@ -1,14 +1,18 @@
 /* 
 Colors of the DOC:
-blue  --  #245076
+blue main --  #245076
 gold  --  #d9c13e
+blue light -- #3b78ad
 */
 
 
 #rapper{
     color:blue;
     background-color:#245076;
-    height:100px;
+    height:800px;
+    width:970px;
+    text-align: center;
+    margin: 0 auto;
 }
 body{
     background-color:#d9c13e;
@@ -16,5 +20,25 @@ body{
 #logo img{
     width:400px;
     padding:40px;
-    margin:20px;
+    padding-top:0px;
+    margin-right:500px;
+    margin-top:10px;
+
+}
+#bar{
+    background-color:#3b78ad;
+    display:inline-block;
+    width:800px;
+    text-align:center;
+    border-radius:15px;
+    font-size:140%;
+    padding:10px;
+}
+#bar ul li{
+    color:white;
+    display: inline-block;
+    background-color:black;
+    margin-left:30px;
+    border-radius:5px;
+    padding:5px;
 }
